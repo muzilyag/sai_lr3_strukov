@@ -1,0 +1,108 @@
+Screen {
+    background: $background;
+}
+
+#main_body {
+    height: 1fr;
+}
+
+#sidebar {
+    width: 34;
+    padding: 1 1;
+    border-right: solid $panel;
+    height: 100%;
+}
+
+#sidebar_title {
+    text-style: bold;
+    margin-bottom: 1;
+    padding-left: 1;
+}
+
+ArrowOptionList {
+    height: auto;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+ArrowOptionList:focus {
+    border: none;
+}
+
+ArrowOptionList > .option-list--option {
+    background: transparent;
+    color: $text-muted;
+}
+
+ArrowOptionList > .option-list--option-highlighted {
+    background: transparent;
+    color: ansi_bright_cyan;
+    text-style: bold;
+}
+
+ArrowOptionList:focus > .option-list--option-highlighted {
+    background: transparent;
+    color: ansi_bright_cyan;
+    text-style: bold;
+}
+
+#content_area {
+    width: 1fr;
+    height: 100%;
+    padding: 0 1;
+}
+
+.report_scroll {
+    height: 1fr;
+}
+
+#status_panel {
+    height: auto;
+    padding: 0 1;
+    border-top: solid $panel;
+}
+
+OperatorSelectModal, InputFactModal {
+    align: center middle;
+}
+
+#op_modal_box {
+    width: 58;
+    height: auto;
+    border: solid $panel;
+    background: $surface;
+    padding: 1 2;
+}
+
+#op_modal_title, #modal_title {
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#modal_box {
+    width: 72;
+    height: auto;
+    max-height: 88%;
+    border: solid $panel;
+    background: $surface;
+    padding: 1 2;
+}
+
+.step_box {
+    height: auto;
+}
+
+.field_label {
+    margin-top: 1;
+}
+
+.action_list {
+    margin-top: 0;
+}
+
+#modal_error {
+    color: ansi_bright_red;
+    text-style: bold;
+    margin-top: 1;
+}
