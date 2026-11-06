@@ -41,9 +41,9 @@ def imp_kleene_dienes(x: float, y: float) -> float:
 IMPLICATORS: dict[str, tuple[str, FuzzyOp]] = {
     "mamdani": ("Мамдани (min{x, y})", imp_mamdani),
     "larsen": ("Ларсена (x * y)", imp_larsen),
-    "lukasiewicz": ("Лукасевича (min{1, 1 - x + y})", imp_lukasiewicz),
-    "godel": ("Гёделя (1 если x <= y иначе y)", imp_godel),
-    "kleene_dienes": ("Клина-Дайнеса (max{1 - x, y})", imp_kleene_dienes),
+    # "lukasiewicz": ("Лукасевича (min{1, 1 - x + y})", imp_lukasiewicz),
+    # "godel": ("Гёделя (1 если x <= y иначе y)", imp_godel),
+    # "kleene_dienes": ("Клина-Дайнеса (max{1 - x, y})", imp_kleene_dienes),
 }
 
 
