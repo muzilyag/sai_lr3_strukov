@@ -2,4 +2,3 @@ __pycache__/
 .vscode/
 .venv/
 .ruff_cache/
-plots/
